@@ -1,1 +1,1 @@
-This is website for Restaurant in Ukraine
+This is website for Jewelry shop
