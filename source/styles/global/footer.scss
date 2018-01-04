@@ -1,0 +1,25 @@
+.horiz-line {
+  text-align: center;
+  overflow: hidden;
+  //background: aqua;
+
+  &:before, &:after {
+    content: '';
+    display:inline-block;
+    vertical-align: text-top;
+    box-sizing: border-box;
+    width: 50%;
+    height: 1px;
+    background: darkgrey;
+    opacity: .5;
+  }
+  &:before {
+    margin-left: -100%;
+    margin-right: 30%;
+  }
+
+  &:after {
+    margin-right: -100%;
+    margin-left: 30%;
+  }
+}

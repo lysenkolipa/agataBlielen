@@ -1,0 +1,42 @@
+.page-1 {
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-between;
+
+  &_block-left {
+    width: 50%;
+    background: #ffffff;
+    position: relative;
+
+    &_title-left {
+      font-size: 136px;
+      font: "AGaramondPro-Regular";
+      font-weight: 400;
+      line-height: 33.52px;
+      color: #000000;
+      text-align: left;
+
+    }
+
+    &_text {
+      position: absolute;
+      width:179px;
+      height:320px;
+      font-size: 14px;
+      line-height: 18px;
+      left: 65%;
+      bottom: 5%
+    }
+
+
+  }
+  &_block-right {
+    width: 50%;
+    background: #ede0df;
+
+    &-img {
+      width: 528px;
+      height: 946px;
+    }
+  }
+}
