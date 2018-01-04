@@ -1,0 +1,137 @@
+
+.center-block {
+  background: #ffffff url('../images/catalogue.png') center no-repeat;
+  width: 100%;
+  margin: 0 0 0 4%;
+  display: inline-flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  //background: azure;
+}
+.line-1, .line-2 {
+  position: relative;
+}
+.text-top {
+  margin-left: 2%;
+}
+.block-with-img-left {
+  display: inline-flex;
+  justify-content: space-around;
+  width: 45%;
+  margin-bottom: 5%;
+  flex-wrap: wrap;
+  //background: antiquewhite;
+}
+.text-bottom-1{
+  position: absolute;
+  bottom: 4%;
+  left: -14%;
+  opacity: .5;
+}
+.r-l_link-1{
+  position: absolute;
+  left: -14%;
+  bottom: -3%;
+}
+
+.text-bottom-2{
+  position: absolute;
+  bottom: 1%;
+  left: -14%;
+  opacity: .5;
+}
+.r-l_link-2{
+  position: absolute;
+  left: -14%;
+  bottom: -3%;
+}
+
+.block-with-list-right {
+  width: 45%;
+  line-height: 2.5rem;
+  margin-bottom: 5%;
+  flex-wrap: wrap;
+  //background: cadetblue;
+
+  &-table {
+    width: 100%;
+    padding-top:2%;
+    padding-left: 7%
+  }
+}
+.coll {
+  width: 100px;
+  opacity: .5;
+  height: 51px;
+  font-size: 13px;
+  font: "AGaramondPro-Regular";
+}
+.line-type {
+  width: 200px;
+  font-size: 13px;
+  font-weight: bolder;
+}
+.table-img {
+  padding-left: 10%;
+}
+.text-top {
+  display: flex;
+  transform: rotate(-90deg);
+  width: 70px;
+  height: 130px;
+  opacity: .5;
+  font-size: 13px;
+  margin-bottom:-35%;
+}
+
+.block-with-list-left {
+  //background: cornsilk;
+  width: 45%;
+  flex-wrap: wrap;
+  line-height: 2.5rem;
+  margin-bottom: 5%;
+  padding-top: 2%;
+
+
+  &-table {
+    width: 100%;
+    padding-top:2%;
+    padding-left: 7%
+  }
+}
+.block-with-img-right {
+  display: inline-flex;
+  justify-content: space-around;
+  width: 45%;
+  margin-bottom: 5%;
+  margin-left: 1%;
+  flex-wrap: wrap;
+  //background: bisque;
+}
+
+.horiz-line {
+      text-align: center;
+      overflow: hidden;
+  //background: aqua;
+
+      &:before, &:after {
+        content: '';
+        display:inline-block;
+        vertical-align: text-top;
+        box-sizing: border-box;
+        width: 50%;
+        height: 1px;
+        background: darkgrey;
+        opacity: .5;
+      }
+      &:before {
+        margin-left: -100%;
+        margin-right: 30%;
+      }
+
+      &:after {
+        margin-right: -100%;
+        margin-left: 30%;
+      }
+}
+
