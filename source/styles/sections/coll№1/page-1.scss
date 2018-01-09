@@ -9,7 +9,7 @@
     position: relative;
 
     &_title-left {
-      font-size: 136px;
+      font-size: 6rem;
       font: "AGaramondPro-Regular";
       font-weight: 400;
       line-height: 33.52px;
@@ -17,26 +17,54 @@
       text-align: left;
 
     }
-
-    &_text {
+    &_text-block {
+      width: 229px;
+      height: auto;
       position: absolute;
-      width:179px;
-      height:320px;
-      font-size: 14px;
-      line-height: 18px;
       left: 65%;
-      bottom: 5%
+      bottom: -6%;
     }
 
+    &_text {
+      margin-right: 12%;
+      width: 179px;
+      height: 320px;
+      font-size: .7rem;
+      line-height: 18px;
+      font-weight: bolder;
+    }
 
   }
   &_block-right {
     width: 50%;
+    height: auto;
     background: #ede0df;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-    &-img {
-      width: 528px;
-      height: 946px;
+    &_block {
+      width: 75%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      //background: cadetblue;
+
     }
   }
+
+}
+
+.block_img-1 {
+  position: relative;
+  width: 100%;
+}
+
+.block_img-2 {
+  width: 28%;
+  height: 82%;
+  position: absolute;
+  top: 163%;
+  left: 59.5%;
 }
