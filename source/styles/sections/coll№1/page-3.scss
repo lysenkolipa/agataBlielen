@@ -1,0 +1,77 @@
+.page-3 {
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-between;
+
+
+  &_block-left {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    //background: floralwhite;
+
+    &_container {
+      justify-content: center;
+      align-items: center;
+      width: 450px;
+      height: auto;
+      //background: #ede0df;
+
+      &_img {
+        width: 100%;
+      }
+
+      &_text {
+        width: 100%;
+        height: auto;
+        font-size: .8vw;
+        font: "AGaramondPro-Regular";
+        font-weight: bolder;
+        padding: 0;
+      }
+    }
+  }
+  &_block-right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #edded5;
+
+    &_container {
+      width: 70%;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+
+      &_img-1 {
+        width: 100%;
+
+      }
+
+      &_img-2 {
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+
+      }
+
+      &_text {
+        position: absolute;
+        font-size: 3vw;
+        font-style: italic;
+        line-height: 60px;
+        color: #000000;
+        text-align: center;
+      }
+    }
+
+  }
+
+
+
+}
