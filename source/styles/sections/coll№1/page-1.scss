@@ -9,7 +9,7 @@
     position: relative;
 
     &_title-left {
-      font-size: 6rem;
+      font-size: 10vw;
       font: "AGaramondPro-Regular";
       font-weight: 400;
       line-height: 33.52px;
@@ -46,25 +46,24 @@
     &_block {
       width: 75%;
       height: 100%;
+      position: relative;
       display: flex;
       justify-content: center;
       align-items: center;
       //background: cadetblue;
-
     }
   }
-
 }
 
 .block_img-1 {
-  position: relative;
-  width: 100%;
+  //position: relative;
+  width: 70%;
 }
 
 .block_img-2 {
-  width: 28%;
+  //width: 28%;
   height: 82%;
   position: absolute;
-  top: 163%;
-  left: 59.5%;
+  //top: 163%;
+  //left: 59.5%;
 }

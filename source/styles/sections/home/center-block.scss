@@ -2,11 +2,47 @@
 .center-block {
   background: #ffffff url('../images/catalogue.png') center no-repeat;
   width: 100%;
-  margin: 0 0 0 4%;
   display: inline-flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  //background: azure;
+
+  &_section-left {
+    width: 50%;
+    //background: #e5eaeb;
+    &_with-img {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+    &_with-list {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      //background: rosybrown;
+      padding-top: 15%;
+      flex-wrap: wrap;
+    }
+  }
+
+  &_section-right {
+    width: 50%;
+    //background: #ede0df;
+    &_with-img {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+    &_with-list {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      //background: rosybrown;
+      padding-top: 10%;
+      flex-wrap: wrap;
+    }
+  }
 }
 .line-1, .line-2 {
   position: relative;
@@ -14,14 +50,7 @@
 .text-top {
   margin-left: 2%;
 }
-.block-with-img-left {
-  display: inline-flex;
-  justify-content: space-around;
-  width: 45%;
-  margin-bottom: 5%;
-  flex-wrap: wrap;
-  //background: antiquewhite;
-}
+
 .text-bottom-1{
   position: absolute;
   bottom: 4%;
@@ -46,19 +75,6 @@
   bottom: -3%;
 }
 
-.block-with-list-right {
-  width: 45%;
-  line-height: 2.5rem;
-  margin-bottom: 5%;
-  flex-wrap: wrap;
-  //background: cadetblue;
-
-  &-table {
-    width: 100%;
-    padding-top:2%;
-    padding-left: 7%
-  }
-}
 .coll {
   width: 100px;
   opacity: .5;
@@ -82,31 +98,6 @@
   opacity: .5;
   font-size: 13px;
   margin-bottom:-35%;
-}
-
-.block-with-list-left {
-  //background: cornsilk;
-  width: 45%;
-  flex-wrap: wrap;
-  line-height: 2.5rem;
-  margin-bottom: 5%;
-  padding-top: 2%;
-
-
-  &-table {
-    width: 100%;
-    padding-top:2%;
-    padding-left: 7%
-  }
-}
-.block-with-img-right {
-  display: inline-flex;
-  justify-content: space-around;
-  width: 45%;
-  margin-bottom: 5%;
-  margin-left: 1%;
-  flex-wrap: wrap;
-  //background: bisque;
 }
 
 

@@ -7,6 +7,9 @@
     width: 50%;
     height: auto;
     background: #e5eaeb;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
 
     &_img {
       width: 100%;
@@ -14,15 +17,19 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      background: aquamarine;
 
       &_img-1 {
-        width: 100%;
+        width: 80%;
+        position: absolute;
+
       }
 
       &_img-2 {
-        width: 70%;
-        height: auto;
+        //width: 70%;
+        //height: auto;
         position: absolute;
+
       }
     }
   }
