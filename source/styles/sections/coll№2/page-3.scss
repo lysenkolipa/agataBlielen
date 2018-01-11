@@ -1,0 +1,70 @@
+.page-3-coll2 {
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-between;
+
+
+  &_block-left {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &_container {
+      justify-content: center;
+      align-items: center;
+      width: 350px;
+      height: 350px;
+
+      &_img {
+        width: 100%;
+      }
+
+      &_text {
+        width: 100%;
+        height: auto;
+        font-size: .7vw;
+        font: "AGaramondPro-Regular";
+        font-weight: bolder;
+        padding: 0;
+      }
+    }
+  }
+  &_block-right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ecdede;
+
+    &_container {
+      width: 70%;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+
+      &_img-1 {
+        width: 100%;
+      }
+
+      &_img-2 {
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+      }
+
+      &_text {
+        position: absolute;
+        font-size: 3vw;
+        font-style: italic;
+        line-height: 70px;
+        color: #000000;
+        text-align: center;
+        top:20%
+      }
+    }
+  }
+}
