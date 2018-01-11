@@ -1,4 +1,8 @@
-
+.container-cb{
+  height: auto;
+  max-width: 100vw;
+  margin: 0;
+}
 .center-block {
   background: #ffffff url('../images/catalogue.png') center no-repeat;
   width: 100%;
@@ -6,46 +10,48 @@
   justify-content: space-around;
   flex-wrap: wrap;
 
-  &_section-left {
+  &_with-img-1 {
     width: 50%;
-    //background: #e5eaeb;
-    &_with-img {
-      width: 100%;
-      display: flex;
-      justify-content: space-around;
-      flex-wrap: wrap;
-    }
-    &_with-list {
-      width: 100%;
-      display: flex;
-      justify-content: space-around;
-      //background: rosybrown;
-      padding-top: 15%;
-      flex-wrap: wrap;
-    }
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: auto;
+    //background: aquamarine;
   }
 
-  &_section-right {
+  &_with-list-1 {
     width: 50%;
-    //background: #ede0df;
-    &_with-img {
-      width: 100%;
-      display: flex;
-      justify-content: space-around;
-      flex-wrap: wrap;
-    }
-    &_with-list {
-      width: 100%;
-      display: flex;
-      justify-content: space-around;
-      //background: rosybrown;
-      padding-top: 10%;
-      flex-wrap: wrap;
-    }
+    //height: 50%;
+    display: flex;
+    justify-content: space-around;
+    //background: rosybrown;
+    padding-top: 5%;
+    flex-wrap: wrap;
+    height: auto;
+  }
+
+  &_with-img-2 {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: auto;
+    //background: aquamarine;
+  }
+
+  &_with-list-2 {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    //background: rosybrown;
+    padding-top: 5%;
+    flex-wrap: wrap;
+    height: auto;
   }
 }
 .line-1, .line-2 {
   position: relative;
+  //display: flex;
 }
 .text-top {
   margin-left: 2%;
@@ -53,32 +59,32 @@
 
 .text-bottom-1{
   position: absolute;
-  bottom: 4%;
+  bottom: 20%;
   left: -14%;
   opacity: .5;
 }
 .r-l_link-1{
   position: absolute;
   left: -14%;
-  bottom: -3%;
+  bottom: 13%;
 }
 
 .text-bottom-2{
   position: absolute;
-  bottom: 1%;
+  bottom: 15%;
   left: -14%;
   opacity: .5;
 }
 .r-l_link-2{
   position: absolute;
   left: -14%;
-  bottom: -3%;
+  bottom: 11%;
 }
 
 .coll {
-  width: 100px;
+  //width: 100px;
   opacity: .5;
-  height: 51px;
+  height: 5vh;
   font-size: 13px;
   font: "AGaramondPro-Regular";
 }
@@ -99,6 +105,7 @@
   font-size: 13px;
   margin-bottom:-35%;
 }
+
 
 
 
