@@ -5,7 +5,6 @@
   height: 20px;
   margin-top: -7%;
   margin-left: -51%;
-  //background: bisque;
   position:absolute;
   font-size: 13px;
   color: black;
@@ -20,8 +19,8 @@
     height: 1px;
     background: black;
   }
+
   &:after {
-    //margin-right: -0%;
     margin-left: 2%;
   }
 }

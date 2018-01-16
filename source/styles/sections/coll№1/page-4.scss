@@ -1,6 +1,5 @@
 .page-4 {
   width: 100%;
-  //background: #e5eaeb;
 
   &_left-horiz-block {
     width: 100%;
@@ -11,23 +10,21 @@
     background: #ede0df;
     position: relative;
 
-
     &_container {
       width: 30%;
       height: 100%;
-      //background: aquamarine;
       display: flex;
       justify-content: center;
       align-items: center;
       position: relative;
 
-      &_left-text{
+      &_left-text {
         position: relative;
         margin-right: 1%;
         top: 13%;
       }
 
-      &_right-text{
+      &_right-text {
         position: relative;
         margin-left: 1%;
         top: 13%;
@@ -38,15 +35,17 @@
         position: absolute;
         top: 10%;
       }
+
       &_img-2 {
         position: absolute;
         width: 100%;
         top: -0%;
       }
+
       &_img-3 {
         position: absolute;
-        width: 17vw;
-        top: 34%;
+        width: 20vw;
+        top: 30%;
       }
     }
   }
@@ -54,14 +53,11 @@
   &_right-horiz-block {
     width: 100%;
     height: 30%;
-    //background: rosybrown;
     display: flex;
     justify-content: flex-end;
     align-items: center;
 
-
     &_container {
-      //background: aqua;
       width: 20%;
 
       &_link {
@@ -80,9 +76,60 @@
           background: #000000;
           }
         &:after {
-          //margin-right: 0vw;
           margin-left: 2%;
         }
+      }
+    }
+  }
+}
+
+////////////// MEDIA QUERIES ///////////////
+
+@media (max-width: 1037px) {
+  .page-4 {
+    &_left-horiz-block_container {
+      &_img-1 {
+        width: 45vw;
+        top: 5%;
+      }
+
+      &_img-2 {
+        width: 40vw;
+      }
+
+      &_img-3 {
+        width: 27vw;
+        top: 20%;
+      }
+
+      &_left-text {
+        top: 19%;
+        right: 10%;
+      }
+
+      &_right-text {
+        top: 19%;
+        left: 10%;
+      }
+    }
+  }
+}
+
+@media (max-width: 790px) {
+  .page-4 {
+    &_left-horiz-block_container {
+      &_img-3 {
+        width: 30vw;
+      }
+    }
+  }
+}
+
+@media (max-width: 682px) {
+  .page-4 {
+    &_left-horiz-block_container {
+      &_img-3 {
+        width: 32vw;
       }
     }
   }

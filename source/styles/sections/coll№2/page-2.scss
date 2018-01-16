@@ -26,7 +26,6 @@
 
       &_section {
         width: 60%;
-        //height: content-box;
         position: relative;
         background: #ede0df;
         display: flex;
@@ -52,18 +51,48 @@
       left: -22%;
       top: 30%;
 
-      &_text-1, &_text-2, &_text-3,&_text-4,&_text-5 { margin: 0; }
+      &_text-1,
+      &_text-2,
+      &_text-3,
+      &_text-4,
+      &_text-5 {
+        margin: 0;
+      }
+
       &_text-1 {
         text-align: start;
         text-indent: 5%;
       }
-      &_text-2 { text-align: center; }
+      &_text-2 {
+        text-align: start;
+        text-indent: 20%;
+      }
+
       &_text-3 {
-        text-align: center;
-        text-indent: 8%;
+        text-align: start;
+        text-indent: 27%;
       }
       &_text-4 { text-align: start; }
-      &_text-5 { text-align: end; }
+
+      &_text-5 {
+        text-align: start;
+        text-indent: 18%;
+      }
     }
   }
+}
+
+////////////// MEDIA QUERIES ///////////////
+
+@media (max-width: 885px) {
+  .page-2-coll2_block-left_container {
+    &_section {
+      width: 70%;
+
+      &_img {
+        width: 85%;
+      }
+    }
+  }
+  .page-2-coll2_block-right_block { left: -12%; }
 }

@@ -15,8 +15,8 @@
       line-height: 33.52px;
       color: #000000;
       text-align: left;
-
     }
+
     &_text-block {
       width: 229px;
       height: auto;
@@ -33,11 +33,12 @@
       line-height: 18px;
       font-weight: bolder;
     }
+
     &_text-2 {
       padding-top: 10%;
     }
-
   }
+
   &_block-right {
     width: 50%;
     height: auto;
@@ -48,19 +49,40 @@
 
     &_block {
       width: 100%;
-      //height: 100%;
       position: relative;
       display: flex;
       justify-content: center;
       align-items: center;
-      //background: cadetblue;
     }
   }
 }
 
-.block_img-1 {
-}
+.block_img-1 {}
 
 .block_img-2 {
   position: absolute;
+}
+
+////////////// MEDIA QUERIES ///////////////
+
+@media (max-width: 1037px) {
+  .block_img-1 { width: 95%; }
+
+  .page-1_block-left_text-block {
+    left: 60%;
+    bottom: 10%;
+  }
+}
+
+@media (max-width: 885px) {
+  .page-1_block-left_text-block {
+    width: 300px;
+    left: 35%;
+  }
+
+  .block_img-1 { width: 90%; }
+  .block_img-2 {
+    width: 70%;
+    height: auto;
+  }
 }
