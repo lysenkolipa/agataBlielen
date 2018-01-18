@@ -26,7 +26,7 @@ Before installing project you should make sure that the packages are installed.
 
 > git clone https://github.com/lysenkolipa/agataBlielen
 
-* Install dependencies npm install and start it npm start.
+* Install dependencies > npm install and start it > npm start.
 
 ## DEMO
     > https://lysenkolipa.github.io
