@@ -16,7 +16,7 @@ Before installing project you should make sure that the packages are installed.
 
     > gulp -v (v4.0) or more!!!!!
 
-    If not, add to terminal
+    or install
 
     > npm install gulpjs/gulp-cli#4.0 -g
 
