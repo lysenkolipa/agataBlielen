@@ -5,7 +5,7 @@ Agata Bielen Jewelry shop
 ## Getting Started
 Before installing project you should make sure that the packages are installed.
 
-* Make sure that NODE and NPM version is installed.
+* Make sure that NODE and NPM are installed.
 
     > node -v (v8.9.0)
     > npm -v (v5.5.1)
