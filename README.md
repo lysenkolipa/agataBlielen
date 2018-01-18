@@ -12,7 +12,7 @@ Before installing project you should make sure that the packages are installed.
     > npm -v (v5.5.1)
     or install from https://nodejs.org
 
-* Make sure that the GULP version 4 was installed.
+* Make sure that GULP v4 is installed.
     If gulp version is lower, it'll not work.
 
     For this purpose it is necessary to write in the terminal:
