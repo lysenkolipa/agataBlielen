@@ -6,7 +6,6 @@ Agata Bielen Jewelry shop
 Before installing project you should make sure that the packages are installed.
 
 * Make sure that NODE and NPM version is installed.
-    For this purpose it is necessary to write in the terminal:
 
     > node -v (v8.9.0)
     > npm -v (v5.5.1)
