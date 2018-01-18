@@ -29,7 +29,7 @@ Before installing project you should make sure that the packages are installed.
 * Install dependencies > npm install and start it > npm start.
 
 ## DEMO
-     [agataBlielen](https://lysenkolipa.github.io)
+     https://lysenkolipa.github.io
 
 ## Browser Support
 
