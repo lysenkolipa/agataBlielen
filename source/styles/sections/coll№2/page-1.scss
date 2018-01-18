@@ -1,6 +1,6 @@
 .page-1 {
   width: 100%;
-  display: inline-flex;
+  display: flex;
   justify-content: space-between;
 
   &_block-left {
@@ -21,12 +21,11 @@
       width: 229px;
       height: auto;
       position: absolute;
-      left: 75%;
+      left: 65%;
       bottom: 5%;
     }
 
     &_text-1,&_text-2 {
-      margin-right: 12%;
       width: 179px;
       height: auto;
       font-size: .7rem;
@@ -35,7 +34,7 @@
     }
 
     &_text-2 {
-      padding-top: 10%;
+      padding-top: 8%;
     }
   }
 
@@ -84,5 +83,63 @@
   .block_img-2 {
     width: 70%;
     height: auto;
+  }
+}
+@media (max-width: 768px) {
+  .page-1 {
+    &_block-left {
+
+      &_text-block {
+        width: 229px;
+        height: auto;
+        position: absolute;
+        left: 55%;
+        bottom: 5%;
+      }
+    }
+    &_block-right {
+      .block_img-1 { width: 80%; }
+      .block_img-2 { width: 60%; }
+    }
+  }
+}
+
+@media (max-width: 414px) {
+  .page-1 {
+    margin-bottom: 5%;
+    &_block-left {
+      width: 100%;
+      &_title-left {
+        font-size: 7vw;
+        text-align: center;
+      }
+      &_text-block {
+        width: 100%;
+        position: relative;
+        left: unset;
+        bottom: unset;
+      }
+      &_text-1,&_text-2 {
+        width: 100%;
+        font-size: 1rem;
+        font-weight: normal;
+        padding: 0 5% 0 5%;
+        text-align: justify;
+      }
+
+    }
+    &_block-right {
+      width: 100%;
+      height: auto;
+      .block_img-1 {
+        width: 68%;
+      }
+
+      .block_img-2 {
+        width: 50%;
+        position: absolute;
+      }
+
+    }
   }
 }

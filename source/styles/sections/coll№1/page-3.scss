@@ -56,31 +56,32 @@
       }
 
       &_hr1 {
-        height: 200px;
+        height: 140px;
         width: 1px;
         position: absolute;
-        top:-20%;
+        top:-1%;
       }
 
       &_hr2 {
         height: 200px;
         width: 1px;
         position: absolute;
-        top:90%;
+        top:69%;
       }
 
       &_text {
         position: absolute;
         font-size: 3vw;
         font-style: italic;
-        line-height: 60px;
+        line-height: 50px;
         color: #000000;
         text-align: center;
+        top: 28%;
       }
     }
   }
 }
-
+////////////// MEDIA QUERIES ///////////////
 
 @media (max-width: 1037px) {
   .page-3_block-left_container_text {
@@ -117,11 +118,91 @@
   }
 }
 
-////////////// MEDIA QUERIES ///////////////
+@media (max-width: 1024px) {
+  .page-3_block-right_container {
+    height: 600px;
+
+    &_img-1 { width: 100%; }
+    &_img-2 { width: 40%; }
+
+    &_hr1 {
+      height: 150px;
+      top:10%;
+    }
+
+    &_hr2 {
+      height: 150px;
+      top:65%;
+    }
+
+    &_text {
+      top:35%;
+      line-height: 40px;
+      text-align: center;
+    }
+  }
+}
+
 
 @media (max-width: 885px) {
   .page-3_block-right_container {
     &_hr1 { top:-19%; }
     &_text { top:30%; }
+  }
+}
+@media (max-width: 768px) {
+  .page-3 {
+    &_block-left{
+      &_container {
+        width: 400px;
+        height: auto;
+
+        &_text {
+          font-size: 1rem;
+          padding: 0;
+        }
+      }
+    }
+    &_block-right_container {
+      &_img-1 { width: 110%; }
+      &_img-2 { width: 40%; }
+
+      &_hr1 {
+        height: 120px;
+        top: 14%;
+      }
+
+      &_hr2 {
+        height: 120px;
+        top:65%;
+      }
+
+      &_text {
+        top:37%;
+        font-size: 1.8rem;
+      }
+    }
+  }
+}
+@media (max-width: 414px) {
+  .page-3 {
+    margin-bottom: 5%;
+    &_block-left {
+      padding-top: 5%;
+      width: 100%;
+      &_container {
+        &_text {
+          width: 100%;
+          font-size: .8rem;
+          font-weight: normal;
+          text-align: justify;
+          padding: 0 0 5% 0;
+        }
+      }
+    }
+    &_block-right {
+      width: 100%;
+      height: 450px;
+    }
   }
 }

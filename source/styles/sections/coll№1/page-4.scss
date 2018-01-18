@@ -1,5 +1,6 @@
 .page-4 {
   width: 100%;
+  height: 600px;
 
   &_left-horiz-block {
     width: 100%;
@@ -58,11 +59,11 @@
     align-items: center;
 
     &_container {
-      width: 20%;
+      width: 30%;
 
       &_link {
         text-decoration: none;
-        font-size: 2vw;
+        font-size: 2rem;
         color:#000000;
         overflow: hidden;
 
@@ -93,9 +94,7 @@
         top: 5%;
       }
 
-      &_img-2 {
-        width: 40vw;
-      }
+      &_img-2 { width: 40vw; }
 
       &_img-3 {
         width: 27vw;
@@ -115,6 +114,28 @@
   }
 }
 
+@media (max-width: 1024px) {
+  .page-4 {
+    &_left-horiz-block {
+      &_container {
+        &_img-3 { width:80%; }
+        &_img-1 { width: 40vw; }
+        &_left-text {
+          top: 19%;
+          right: 10%;
+          font-size: 2rem;
+        }
+
+        &_right-text {
+          top: 19%;
+          left: 10%;
+          font-size: 2rem;
+        }
+      }
+    }
+  }
+}
+
 @media (max-width: 790px) {
   .page-4 {
     &_left-horiz-block_container {
@@ -125,11 +146,74 @@
   }
 }
 
+@media (max-width: 768px) {
+  .page-4 {
+    &_left-horiz-block {
+      &_container {
+        &_img-1 { width: 50vw; }
+        &_img-2 { width: 50vw; }
+        &_img-3 { width:90%; }
+        &_left-text {
+          top: 19%;
+          right: 10%;
+          font-size: 1.5rem;
+        }
+        &_right-text {
+          top: 19%;
+          left: 10%;
+          font-size: 1.5rem;
+        }
+      }
+    }
+    &_right-horiz-block {
+      &_container {
+        &_link {
+          font-size: 1.5rem;
+          &:after { width: 43%; }
+          &:after { margin-left: 5%; }
+        }
+      }
+    }
+  }
+}
+
 @media (max-width: 682px) {
   .page-4 {
     &_left-horiz-block_container {
       &_img-3 {
         width: 32vw;
+      }
+    }
+  }
+}
+@media (max-width: 414px) {
+  .page-4 {
+    width: 100%;
+    height: 330px;
+
+    &_left-horiz-block {
+      &_container {
+        &_img-1 { width: 60vw; }
+        &_img-2 { width: 60vw; }
+        &_img-3 { width: 35vw; }
+        &_left-text {
+          top: 19%;
+          right: 12%;
+          font-size: 1rem;
+        }
+        &_right-text {
+          top: 19%;
+          left: 10%;
+          font-size: 1rem;
+        }
+      }
+    }
+    &_right-horiz-block {
+      &_container {
+        &_link {
+          font-size: 1rem;
+          &:after { width: 38%; }
+        }
       }
     }
   }

@@ -1,6 +1,7 @@
 .horiz-line {
   text-align: center;
   overflow: hidden;
+  position: fixed;
 
   &:before, &:after {
     content: '';

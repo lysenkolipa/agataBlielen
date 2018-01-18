@@ -68,24 +68,50 @@
 ////////////// MEDIA QUERIES ///////////////
 
 @media (max-width: 885px) {
-  .page-1_block-left_text-block {
-    width: 300px;
-    left: 35%;
+  .page-1 {
+    &_block-left {
+      &_text-block {
+        width: 300px;
+        left: 35%;
+
+        &_text {
+          width: 229px;
+          height: 320px;
+          font-size: .9rem;
+          font-weight: bolder;
+        }
+      }
+    }
   }
 
-  .page-1_block-left_text-block_text {
-    width: 229px;
-    height: 320px;
-    font-size: .9rem;
-    font-weight: bolder;
-  }
-
-  .block_img-1 {
-    width: 60%;
-  }
-
+  .block_img-1 { width: 60%; }
   .block_img-2 {
     height: 70%;
     position: absolute;
+  }
+}
+
+@media (max-width: 768px) {
+  .page-1_block-left_text-block {
+    width: 300px;
+    left: 30%;
+  }
+  .block_img-2 {
+    height: 65%;
+  }
+}
+@media (max-width: 414px) {
+  .page-1 {
+    &_block-left {
+      &_text {
+        margin-right: 12%;
+        width: 100%;
+        height: auto;
+        text-align: justify;
+        font-size: 1rem;
+        font-weight: normal;
+        padding: 0 5% 0 5%;
+      }
+    }
   }
 }

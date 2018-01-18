@@ -122,3 +122,59 @@
       }
   }
 }
+@media (max-width: 768px) {
+  .page-2_block-right_block {
+    width: 239px;
+    &_text-1 {
+      text-align: start;
+      text-indent: 10%;
+      //background: yellow;
+    }
+
+    &_text-2 {
+      text-align: start;
+      text-indent: 27%;
+      //background: cornflowerblue;
+    }
+
+    &_text-3 {
+      text-align: start;
+      text-indent: 27%;
+      //background: orangered;
+    }
+
+    &_text-4 {
+      text-align: start;
+      text-indent: 5%;
+      //background: violet;
+    }
+    &_text-5 {
+      text-align: start;
+      text-indent: 10%;
+      //background: darkseagreen;
+    }
+  }
+}
+
+@media (max-width: 414px) {
+  .page-2 {
+    &_block-left {
+      width:100%;
+      order: 2;
+    }
+    &_block-right {
+      width: 100%;
+      order: 1;
+      &_block {
+        margin-left: 15%;
+        margin-top: 190%;
+        &_text-1 { width: 20%; }
+        &_text-4 { text-indent: 20%; }
+        &_text-5 {
+          text-indent: 6%;
+          width: 40%;
+        }
+      }
+    }
+  }
+}

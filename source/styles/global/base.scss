@@ -1,17 +1,20 @@
 body {
-  overflow-x:hidden;
+  //overflow-x:hidden;
   font-family: "AGaramondPro-Regular";
   font-size: 1rem;
   line-height: 1;
-  background: #ffffff;
-  width: 100%;
-  margin: 0;
+  background: #fff;
   padding:3%;
+  width: 100%;
 }
 
 html {
   box-sizing: border-box;
   margin: 0;
+
+  @media (max-width: 600px) {
+    font-size: 14px;
+  }
 }
 
 *, *:before, *:after {
