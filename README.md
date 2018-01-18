@@ -14,8 +14,6 @@ Before installing project you should make sure that the packages are installed.
 * Make sure that GULP v4 is installed.
     If gulp version is lower, it'll not work.
 
-    For this purpose it is necessary to write in the terminal:
-
     > gulp -v (v4.0) or more!!!!!
 
     If not, add to terminal
